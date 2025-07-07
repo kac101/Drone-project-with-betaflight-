@@ -27,12 +27,28 @@ This project's goal is to build a drone with custom PCB that works both for flig
 - A PWM will be generated to control rpm of motor based on PWM control input from website.
 
 
+
 <p align="center">
   <img src="Picture1.png" alt="Wi-Fi Router Setup" width="500"/>
 </p>
 <p align="center" style="font-size:11px;">
 Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing device-to-device communication
 </p>
+
+>  **How to Find Your IP Address in Windows CMD:**
+> 
+> 1. Open **Command Prompt**  
+>    Press `Win + R`, type `cmd`, and press Enter.
+>
+> 2. Type the following command and press Enter:
+>    ```bash
+>    ipconfig
+>    ```
+> 
+> 3. Look for the **Default Gateway** under your active network adapter (usually under "Wireless LAN adapter Wi-Fi").  
+>    That IP (e.g., `192.168.0.1`) is your router's login address.  
+> 
+> 4. Paste the **Default Gateway** IP into your web browser to access the router settings page.
 
 ## System Architecture
 
