@@ -42,9 +42,24 @@ Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing
 
 2. **Control**  
    - PWM output from GPIO (e.g., GP16)  
-   - MOSFET controls motor rpm (For now, just LED is used to indicate it is sending PWM)
+   - MOSFET controls motor RPM (For now, just LED is used to indicate it is sending PWM)  
    - Web server on Pi Pico 2W  
-   - Public access via `ngrok`
+   - Public access via `ngrok`  
+
+   >  **Why ngrok?**  
+   If you can’t modify your Wi-Fi router settings to allow local device-to-device communication (e.g., university or guest networks), you can expose your Raspberry Pi Pico W web server to the public internet using **ngrok**.  
+   This provides a **free public URL that lasts 4 hours per session**.
+
+   >  **Get your auth token here:**  
+   [https://dashboard.ngrok.com/get-started/your-authtoken](https://dashboard.ngrok.com/get-started/your-authtoken)
+
+   The following commands were used in **Ubuntu** to install and configure `ngrok`:
+
+   ```bash
+   sudo snap install ngrok
+   ngrok config add-authtoken xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   ngrok http xxx.xxx.x.xxx:xx
+
 
 3. **Interface**  
    - HTML slider updates PWM duty via GET requests  
@@ -96,6 +111,7 @@ Figure 2. Thonny IDE with MicroPython script loaded for Pico 2W
 <p align="center" style="font-size:11px;">
 Figure 3. Web interface with slider to control motor/LED
 </p>
+
 - **Back-end Logic**: Parses `?duty=value` from HTTP GET request  
 - **PWM Setup**: 1 kHz frequency, 0–100% duty cycle  
 - **ngrok**: Tunnels HTTP port (default 80) to a random public URL  
@@ -112,8 +128,7 @@ Figure 4. ngrok tunnel running and exposing Pico 2W web server
 ## Notes
 
 - The `ngrok` URL changes every session unless upgraded to Pro.
-- Avoid sharing real IP addresses in public README for security.
-- Free tier allows 4-hour sessions before requiring a restart.
+- Avoid sharing real IP addresses  for security.
 
 ---
 
