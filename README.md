@@ -14,13 +14,19 @@ Project Team:
 
 This project's goal is to build a drone with custom PCB that works both for flight controller and ESC. For now, work demonstrates wireless control of a motor (LED for now) using a Raspberry Pi Pico 2W  MicroPython, and `ngrok` for remote access (for additional motor for cleaning brush). A web-based interface with a PWM slider adjusts motor speed in real time over Wi-Fi. The backend is hosted on the Pico 2W and made publicly accessible using `ngrok`, eliminating the need for manual router configuration.
 
+## Development Milestones
+
+### Milestone 1  
+### Milestone 2
+---
+##  Milestones 1
 **How It Works:**
 - A MicroPython script serves an HTML page with a PWM slider.
 - User input (0–100) sets the PWM duty cycle for motor control.
 - Communication is handled over Wi-Fi; `ngrok` exposes the server via a public HTTPS link.
 - A MOSFET acts as a switch to drive the motor with appropriate voltage based on PWM input.
 
----
+
 <p align="center">
   <img src="Picture1.png" alt="Wi-Fi Router Setup" width="500"/>
 </p>
@@ -45,11 +51,8 @@ Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing
    - URL format: `https://<random-id>.ngrok-free.app/?duty=75`  
    - Slider input controls motor in near real-time
 
----
 
-## Development Milestones
-
-### Milestone 1  
+### Milestone 1  details
 - Set up Pico 2W with MicroPython
 -  Download Thonny IDE from https://github.com/thonny/thonny/releases/tag/v4.1.7
 -  Download MicroPython UF2 file for pico 2w board
@@ -67,17 +70,14 @@ Figure 2. Thonny IDE with MicroPython script loaded for Pico 2W
   
 - `ngrok` tunnel configured to allow external access  
 - Tested mobile and cross-device compatibility  
-### Milestone 2  
-- Listing components PCB
-- getting used to betaflight by playing with Bliz e-55 + ESC stack
----
+
 
 ## Hardware Details
 
 
 - **LED Control Pin**: GP16  
 
----
+
 
 ### Component List
 
@@ -85,7 +85,6 @@ Figure 2. Thonny IDE with MicroPython script loaded for Pico 2W
 - 1x LED 
 - 1x USB Cable - Micro
 
----
 
 ## Software Details
 
@@ -108,7 +107,7 @@ Figure 3. Web interface with slider to control motor/LED
 <p align="center" style="font-size:11px;">
 Figure 4. ngrok tunnel running and exposing Pico 2W web server
 </p>
----
+
 
 ## Notes
 
@@ -118,3 +117,7 @@ Figure 4. ngrok tunnel running and exposing Pico 2W web server
 
 ---
 
+### Milestone 2  
+- Listing components PCB
+- getting used to betaflight by playing with Bliz e-55 + ESC stack
+---
