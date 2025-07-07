@@ -1,5 +1,5 @@
 
-<h1 align="center">Raspberry Pi Pico 2W - Wireless Motor Control</h1>
+<h1 align="center">Cleaning Drone Raspberry Pi Pico 2W - Wireless Motor Control</h1>
 
 <p>
 Project Team:
@@ -12,7 +12,7 @@ Project Team:
 
 ## Project Summary
 
-This project demonstrates wireless control of a motor (LED for now) using a Raspberry Pi Pico 2W, MicroPython, and `ngrok` for remote access. A web-based interface with a PWM slider adjusts motor speed in real time over Wi-Fi. The backend is hosted on the Pico 2W and made publicly accessible using `ngrok`, eliminating the need for manual router configuration.
+This project's goal is to build a drone with custom PCB that works both for flight controller and ESC. For now, work demonstrates wireless control of a motor (LED for now) using a Raspberry Pi Pico 2W  MicroPython, and `ngrok` for remote access (for additional motor for cleaning brush). A web-based interface with a PWM slider adjusts motor speed in real time over Wi-Fi. The backend is hosted on the Pico 2W and made publicly accessible using `ngrok`, eliminating the need for manual router configuration.
 
 **How It Works:**
 - A MicroPython script serves an HTML page with a PWM slider.
@@ -62,14 +62,14 @@ Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing
 Figure 2. Thonny IDE with MicroPython script loaded for Pico 2W
 </p>
 
-### Milestone 2  
 - HTML interface created using `<input type="range">`  
-- Integrated with MicroPython server  
-
-### Milestone 3  
+- Integrated with MicroPython server
+  
 - `ngrok` tunnel configured to allow external access  
 - Tested mobile and cross-device compatibility  
-
+### Milestone 2  
+- Listing components PCB
+- getting used to betaflight by playing with Bliz e-55 + ESC stack
 ---
 
 ## Hardware Details
