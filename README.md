@@ -54,7 +54,7 @@ Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing
 
 1. **Power**  
    - USB supplies power to the Pico 2W  
-   - External source powers motor through MOSFET //later
+  
 
 2. **Control**  
    - PWM output from GPIO (e.g., GP16)  
