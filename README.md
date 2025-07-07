@@ -12,7 +12,7 @@ Project Team:
 
 ## Project Summary
 
-This project demonstrates wireless control of a motor (LED for now) using a Raspberry Pi Pico W, MicroPython, and `ngrok` for remote access. A web-based interface with a PWM slider adjusts motor speed in real time over Wi-Fi. The backend is hosted on the Pico W and made publicly accessible using `ngrok`, eliminating the need for manual router configuration.
+This project demonstrates wireless control of a motor (LED for now) using a Raspberry Pi Pico 2W, MicroPython, and `ngrok` for remote access. A web-based interface with a PWM slider adjusts motor speed in real time over Wi-Fi. The backend is hosted on the Pico 2W and made publicly accessible using `ngrok`, eliminating the need for manual router configuration.
 
 **How It Works:**
 - A MicroPython script serves an HTML page with a PWM slider.
@@ -50,13 +50,13 @@ Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing
 ## Development Milestones
 
 ### Milestone 1  
-- Set up Pico W with MicroPython  
+- Set up Pico 2W with MicroPython  
 - Verified PWM output to motor  
 <p align="center">
   <img src="Picture2.png" alt="Thonny IDE Setup" width="500"/>
 </p>
 <p align="center" style="font-size:11px;">
-Figure 2. Thonny IDE with MicroPython script loaded for Pico W
+Figure 2. Thonny IDE with MicroPython script loaded for Pico 2W
 </p>
 
 ### Milestone 2  
@@ -87,7 +87,7 @@ Figure 2. Thonny IDE with MicroPython script loaded for Pico W
 ## Software Details
 
 - **Language & SDK**: MicroPython using Thonny IDE  
-- **Web Interface**: HTML slider served from the Pico W
+- **Web Interface**: HTML slider served from the Pico 2W
   <p align="center">
   <img src="Picture3.png" alt="Web Page Outcome" width="500"/>
 </p>
@@ -103,7 +103,7 @@ Figure 3. Web interface with slider to control motor/LED
   <img src="Picture4.png" alt="ngrok Tunnel" width="500"/>
 </p>
 <p align="center" style="font-size:11px;">
-Figure 4. ngrok tunnel running and exposing Pico W web server
+Figure 4. ngrok tunnel running and exposing Pico 2W web server
 </p>
 ---
 
