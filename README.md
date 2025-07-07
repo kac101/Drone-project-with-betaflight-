@@ -1,5 +1,5 @@
 
-<h1 align="center">Cleaning Drone Raspberry Pi Pico 2W - Wireless Motor Control</h1>
+<h1 align="center"> Drone Project - Raspberry Pi Pico 2W - Wireless Motor Control</h1>
 
 <p>
 Project Team:
@@ -12,7 +12,7 @@ Project Team:
 
 ## Project Summary
 
-This project's goal is to build a drone with custom PCB that works both for flight controller and ESC. For now, this work demonstrates wireless control of a motor (LED for now) using a Raspberry Pi Pico 2W  MicroPython, and `ngrok` for remote access (for additional motor for cleaning brush). A web-based interface with a PWM slider adjusts motor speed in real time over Wi-Fi. The backend is hosted on the Pico 2W and made publicly accessible using `ngrok`, eliminating the need for manual router configuration.
+This project's goal is to build a drone with custom PCB that works both for flight controller and ESC. For now, this work demonstrates wireless control of a motor (LED for now) using a Raspberry Pi Pico 2W  MicroPython, and `ngrok` for remote access (for additional motor). A web-based interface with a PWM slider adjusts motor speed in real time over Wi-Fi. The backend is hosted on the Pico 2W and made publicly accessible using `ngrok`, eliminating the need for manual router configuration.
 
 ## Development Milestones
 
