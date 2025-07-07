@@ -12,19 +12,19 @@ Project Team:
 
 ## Project Summary
 
-This project's goal is to build a drone with custom PCB that works both for flight controller and ESC. For now, work demonstrates wireless control of a motor (LED for now) using a Raspberry Pi Pico 2W  MicroPython, and `ngrok` for remote access (for additional motor for cleaning brush). A web-based interface with a PWM slider adjusts motor speed in real time over Wi-Fi. The backend is hosted on the Pico 2W and made publicly accessible using `ngrok`, eliminating the need for manual router configuration.
+This project's goal is to build a drone with custom PCB that works both for flight controller and ESC. For now, this work demonstrates wireless control of a motor (LED for now) using a Raspberry Pi Pico 2W  MicroPython, and `ngrok` for remote access (for additional motor for cleaning brush). A web-based interface with a PWM slider adjusts motor speed in real time over Wi-Fi. The backend is hosted on the Pico 2W and made publicly accessible using `ngrok`, eliminating the need for manual router configuration.
 
 ## Development Milestones
 
-### Milestone 1  
-### Milestone 2
+### Milestone 1  Wireless Control Setup
+### Milestone 2  PCB Planning & Betaflight Familiarization
 ---
 ##  Milestones 1
 **How It Works:**
 - A MicroPython script serves an HTML page with a PWM slider.
 - User input (0–100) sets the PWM duty cycle for motor control.
 - Communication is handled over Wi-Fi; `ngrok` exposes the server via a public HTTPS link.
-- A MOSFET acts as a switch to drive the motor with appropriate voltage based on PWM input.
+- A PWM will be generated to control rpm of motor based on PWM control input from website.
 
 
 <p align="center">
