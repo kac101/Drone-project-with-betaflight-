@@ -67,7 +67,7 @@ Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing
    - Slider input controls motor in near real-time
 
 
-### Milestone 1  details
+### More details Milestone 1 
 - Set up Pico 2W with MicroPython
 -  Download Thonny IDE from https://github.com/thonny/thonny/releases/tag/v4.1.7
 -  Download MicroPython UF2 file for pico 2w board
