@@ -87,6 +87,7 @@ Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing
 - Set up Pico 2W with MicroPython
 -  Download Thonny IDE from https://github.com/thonny/thonny/releases/tag/v4.1.7
 -  Download MicroPython UF2 file for pico 2w board (Upload UF2 to the board manually (click Bootsel button while connecting))
+  --  The device will **automatically disconnect** once the firmware is successfully uploaded.
   --  https://www.raspberrypi.com/documentation/microcontrollers/micropython.html#drag-and-drop-micropython 
 - Verified PWM output to motor  
 <p align="center">
