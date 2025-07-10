@@ -29,7 +29,7 @@ This project's goal is to build a drone with custom PCB that works both for flig
 
 
 <p align="center">
-  <img src="Picture1.png" alt="Wi-Fi Router Setup" width="500"/>
+  <img src="images/Picture1.png" alt="Wi-Fi Router Setup" width="500"/>
 </p>
 <p align="center" style="font-size:11px;">
 Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing device-to-device communication
@@ -91,7 +91,7 @@ Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing
   --  https://www.raspberrypi.com/documentation/microcontrollers/micropython.html#drag-and-drop-micropython 
 - Verified PWM output to motor  
 <p align="center">
-  <img src="Picture2.png" alt="Thonny IDE Setup" width="500"/>
+  <img src="images/Picture2.png" alt="Thonny IDE Setup" width="500"/>
 </p>
 <p align="center" style="font-size:11px;">
 Figure 2. Thonny IDE with MicroPython script loaded for Pico 2W
@@ -123,7 +123,7 @@ Figure 2. Thonny IDE with MicroPython script loaded for Pico 2W
 - **Language & SDK**: MicroPython using Thonny IDE  
 - **Web Interface**: HTML slider served from the Pico 2W
   <p align="center">
-  <img src="Picture3.png" alt="Web Page Outcome" width="500"/>
+  <img src="images/Picture3.png" alt="Web Page Outcome" width="500"/>
 </p>
 <p align="center" style="font-size:11px;">
 Figure 3. Web interface with slider to control motor/LED
@@ -135,7 +135,7 @@ Figure 3. Web interface with slider to control motor/LED
   - Example: `https://abcd-1234-5678.ngrok-free.app/?duty=60`  
 
 <p align="center">
-  <img src="Picture4.png" alt="ngrok Tunnel" width="500"/>
+  <img src="images/Picture4.png" alt="ngrok Tunnel" width="500"/>
 </p>
 <p align="center" style="font-size:11px;">
 Figure 4. ngrok tunnel running and exposing Pico 2W web server
