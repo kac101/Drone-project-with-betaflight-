@@ -1,5 +1,5 @@
 
-<h1 align="center"> Drone Project - Raspberry Pi Pico 2W - Wireless Motor Control</h1>
+<h1 align="center"> Solar Drone Project - Custom Drone Flight Controller </h1>
 
 <p>
 Project Team:
