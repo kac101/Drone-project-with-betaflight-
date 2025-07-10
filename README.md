@@ -1,5 +1,5 @@
 
-<h1 align="center"> Solar Drone Project - Custom Drone Flight Controller </h1>
+<h1 align="center"> Custom Solar Drone Project </h1>
 
 <p>
 Project Team:
