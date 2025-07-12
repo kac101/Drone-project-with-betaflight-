@@ -33,6 +33,12 @@ This project's goal is to build a drone with custom PCB that works both for flig
 Figure 1 . Remotely controlling a motor over Wi-Fi using Raspberry Pi Pico 2W : PWM & MOSFET
 </p>
 
+**Wiring:**
+- **Gate (G)** ← GP16 (PWM output from Pico)
+- **Drain (D)** ← Motor negative terminal
+- **Source (S)** ← Ground
+- **Motor positive terminal** ← Directly to power source
+
 <p align="center">
   <img src="images/Picture1.png" alt="Wi-Fi Router Setup" width="500"/>
 </p>
