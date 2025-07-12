@@ -26,13 +26,18 @@ This project's goal is to build a drone with custom PCB that works both for flig
 - Communication is handled over Wi-Fi; `ngrok` exposes the server via a public HTTPS link.
 - A PWM will be generated to control rpm of motor based on PWM control input from website.
 
-
+<p align="center">
+  <img src="images/remotely_controlling_motor_through_wifi.gif" alt="Remotely controlling motor through Wi-Fi" width="500"/>
+</p>
+<p align="center" style="font-size:11px;">
+Figure 1 . Remotely controlling a motor over Wi-Fi using Raspberry Pi Pico 2W : PWM & MOSFET
+</p>
 
 <p align="center">
   <img src="images/Picture1.png" alt="Wi-Fi Router Setup" width="500"/>
 </p>
 <p align="center" style="font-size:11px;">
-Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing device-to-device communication
+Figure 2. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing device-to-device communication
 </p>
 
 >  **How to Find Your IP Address in Windows CMD:**
@@ -94,7 +99,7 @@ Figure 1. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing
   <img src="images/Picture2.png" alt="Thonny IDE Setup" width="500"/>
 </p>
 <p align="center" style="font-size:11px;">
-Figure 2. Thonny IDE with MicroPython script loaded for Pico 2W
+Figure 3. Thonny IDE with MicroPython script loaded for Pico 2W
 </p>
 
 - HTML interface created using `<input type="range">`  
@@ -114,7 +119,8 @@ Figure 2. Thonny IDE with MicroPython script loaded for Pico 2W
 ### Component List
 
 - 1x Raspberry Pi Pico 2 W    
-- 1x LED 
+- 1x LED
+- 1x MOSFET RFP12N10L - N-Channel Logic Level Power MOSFET
 - 1x USB Cable - Micro
 
 
@@ -126,7 +132,7 @@ Figure 2. Thonny IDE with MicroPython script loaded for Pico 2W
   <img src="images/Picture3.png" alt="Web Page Outcome" width="500"/>
 </p>
 <p align="center" style="font-size:11px;">
-Figure 3. Web interface with slider to control motor/LED
+Figure 4. Web interface with slider to control motor/LED
 </p>
 
 - **Back-end Logic**: Parses `?duty=value` from HTTP GET request  
@@ -138,7 +144,7 @@ Figure 3. Web interface with slider to control motor/LED
   <img src="images/Picture4.png" alt="ngrok Tunnel" width="500"/>
 </p>
 <p align="center" style="font-size:11px;">
-Figure 4. ngrok tunnel running and exposing Pico 2W web server
+Figure 5. ngrok tunnel running and exposing Pico 2W web server
 </p>
 
 
