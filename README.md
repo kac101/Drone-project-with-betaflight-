@@ -126,7 +126,7 @@ Figure 3. Thonny IDE with MicroPython script loaded for Pico 2W
 ### Component List
 
 - 1x Raspberry Pi Pico 2 W    
-- 1x LED
+- 1x Motor
 - 1x MOSFET RFP12N10L - N-Channel Logic Level Power MOSFET
 - 1x USB Cable - Micro
 
