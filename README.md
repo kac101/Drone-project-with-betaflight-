@@ -70,7 +70,7 @@ Figure 2. Wi-Fi Router Configuration for 2.4GHz and checking option for allowing
 
 2. **Control**  
    - PWM output from GPIO (e.g., GP16)  
-   - MOSFET controls motor RPM (For now, just LED is used to indicate it is sending PWM)  
+   - MOSFET controls motor RPM (External power from power supply was used for the motor)  
    - Web server on Pi Pico 2W  
    - Public access via `ngrok`  
 
