@@ -18,6 +18,7 @@ This project's goal is to build a drone with custom PCB that works both for flig
 
 ### Milestone 1  Wireless Control Setup
 ### Milestone 2  PCB Planning & Betaflight Familiarization
+### Milestone 3  Image Recognition - Computer Vision 
 ---
 ##  Milestones 1
 **How It Works:**
@@ -164,4 +165,10 @@ Figure 5. ngrok tunnel running and exposing Pico 2W web server
 ### Milestone 2  
 - Listing components PCB
 - getting used to betaflight by playing with Bliz e-55 + ESC stack
+---
+
+
+### Milestone 3  
+- Computer Vision 
+- Able to differenciate the object and read the number from the videos feeds over wifi
 ---
